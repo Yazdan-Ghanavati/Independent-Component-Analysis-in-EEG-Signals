@@ -52,15 +52,15 @@ You’ll find three key plots in the output:
 
 1. **Original EEG signals** (10-channel mixed signals)
    
-   ![Original EEG signals](results/original_signals.png)
+   ![Original EEG signals](A1.png)
 
 2. **Whitened signals** (decorrelated, unit-variance signals)
    
-  ![Whitened signals](results/whitened_signals.png)
+  ![Whitened signals](A2.png)
 
 3. **Estimated Sources** (statistically independent components)  
 
-  ![Estimated sources](results/estimated_sources.png)
+  ![Estimated sources](A3.png)
 
 These visuals clearly illustrate the transformation at each stage of the algorithm.
 

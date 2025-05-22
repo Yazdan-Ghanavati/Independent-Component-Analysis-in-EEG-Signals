@@ -185,14 +185,27 @@ To complement the quantitative results, this section provides a visual example o
 **(a) Original EEG Signal:**
 The plot below depicts the original EEG signal from `S007R01.edf`. This represents the raw data from the 64-channel electrodes. For better visual clarity, channels are presented with increased vertical separation. For detailed visualization parameters, refer to the `plot_signal_channels` function in the code.
 
-![Original Signal Example](path/to/your/original_signal_plot.png) **(b) Whitened Channels after PCA:**
+![Original Signal Example](original_signal.png)
+&nbsp;
+&nbsp;
+
+**(b) Whitened Channels after PCA:**
 This plot shows the whitened channels after applying PCA. For this example, 7 principal components were retained from the original 64-channel data to explain 95% of the variance.
 
-![Whitened Signal Example](path/to/your/whitened_signal_plot.png) **(c) Estimated Independent Sources:**
+![Whitened Signal Example](whitened_channels.png) 
+&nbsp;
+&nbsp;
+
+**(c) Estimated Independent Sources:**
 This final plot displays the estimated independent sources after applying FastICA to the whitened channels, providing a demixed view of the underlying brain activity or artifacts.
+&nbsp;
+![Estimated Sources Example](independent_sources.png) 
+&nbsp;
 
-![Estimated Sources Example](path/to/your/estimated_sources_plot.png) These visualizations provide a clear illustration of the signal transformation at each stage of the ICA pipeline, complementing the quantitative NMI results.
-
+These visualizations provide a clear illustration of the signal transformation at each stage of the ICA pipeline, complementing the quantitative NMI results.
+&nbsp;
+&nbsp;
+&nbsp;
 ## How to Run the Code
 
 1.  **Clone the repository:**
